@@ -8,7 +8,6 @@
   "host": "cse341project2-vviq.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
