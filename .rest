@@ -1,0 +1,58 @@
+// GET ALL
+GET https://cse341project2-vviq.onrender.commovies
+###
+GET http://localhost:3030/movies
+
+###
+// Id
+GET https://cse341project2-vviq.onrender.commovies/6746717a1be0b93c9bafb562
+###
+GET http://localhost:3030/movies/6746717a1be0b93c9bafb562
+###
+POST http://localhost:3030/movies HTTP/1.1
+Content-Type: application/json
+
+{
+    "movieName": "The Lion King",
+    "genre": "Drama",
+    "directorsName": "Nadia Peralta",
+    "minutes": "123",
+    "releaseDate": "1999-05-20"
+}
+###
+POST https://cse341project2-vviq.onrender.commovies HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Ashley",
+    "lastName": "Lopez",
+    "email": "test@test.com",
+    "favoriteColor": "Black",
+    "birthday": "1999-05-20"
+}
+###
+PUT http://localhost:3000/movies/672fbfeeddcafd0191201dfe HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Maxi",
+    "lastName": "Lopez",
+    "email": "test@test.com",
+    "favoriteColor": "Green",
+    "birthday": "2000-01-15"
+}
+###
+PUT https://cse341project2-vviq.onrender.commovies/672fbfeeddcafd0191201dfe HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Maxi",
+    "lastName": "Lopez",
+    "email": "test@test.com",
+    "favoriteColor": "Green",
+    "birthday": "2000-01-15"
+}
+###
+DELETE http://localhost:3000/movies/673941fe86b36846b29f1021
+###
+DELETE https://cse341project2-vviq.onrender.commovies/673941fe86b36846b29f1021
