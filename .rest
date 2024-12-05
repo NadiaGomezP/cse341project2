@@ -14,7 +14,7 @@ Content-Type: application/json
 
 {
     "movieName": "Test",
-    "genre": "jejeje",
+    "genre": "test",
     "directorsName": "test",
     "minutes": "123",
     "releaseDate": "10-12-2000"
